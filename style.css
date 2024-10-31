@@ -35,6 +35,9 @@ a.active {
 
 main {
     min-height: calc(100vh - 150px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url(https://www.dubna-inform.ru/upload/iblock/c55/0dar2ekkcwyhgd39iupmsdarcfjub899/63ff377114111c343d97763980d7e18e.jpg);
 }
 
