@@ -29,13 +29,18 @@ a:hover {
     box-shadow: 0 6px 12px lime;
     transform: translateY(-6px);
 }
+a.active {
+    color: blue;
+}
 
 main {
     min-height: calc(100vh - 150px);
-    background-image: url(./bobr1.jpg);
+    background-image: url(https://www.dubna-inform.ru/upload/iblock/c55/0dar2ekkcwyhgd39iupmsdarcfjub899/63ff377114111c343d97763980d7e18e.jpg);
 }
 
 ul, ol {
     margin: 0;
     padding: 20px;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 7px black, 0 0 9px black;
 }
