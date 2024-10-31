@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: black;
+    padding: 12px;
+}
+header h1 {
+    margin: 0;
+    color: lime;
+    font-size: 40px;
+}
+nav a {
+    display: inline-block;
+    border: 2px solid lime;
+    color: lime;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 12px;
+    margin: 12px;
+    transition: color 0.6s, border 0.6s, box-shadow 0.6s, transform 0.6s;
+}
+a:hover {
+    color: yellow;
+    border: 2px solid yellow;
+    box-shadow: 0 6px 12px lime;
+    transform: translateY(-6px);
+}
+
+main {
+    min-height: calc(100vh - 150px);
+    background-image: url(./bobr1.jpg);
+}
+
+ul, ol {
+    margin: 0;
+    padding: 20px;
+}
