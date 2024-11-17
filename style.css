@@ -42,6 +42,7 @@ main {
 }
 
 ul, ol {
+    font-size:25px;
     margin: 0;
     padding: 20px;
     color: white;
